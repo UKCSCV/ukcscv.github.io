@@ -140,7 +140,7 @@ hr {
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(255,255,255,0.2);
+	background: rgba(255,255,255,0.35);
 }
 .intro h1 {
 	color: #3aaa37;
