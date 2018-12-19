@@ -428,8 +428,19 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 @media (max-width: 1024px) {
-#about img {
-	float: left;
-	margin-bottom: 20px;
+	#about img {
+		float: left;
+		margin-bottom: 20px;
+	}
 }
-}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+	.intro-text h1 {
+		font-size: 24px;
+	}
+	.intro p {
+		font-size: 20px;
+	}
+ } 
