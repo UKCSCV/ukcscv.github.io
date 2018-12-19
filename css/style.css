@@ -443,5 +443,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 	.intro p {
 		font-size: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
  } 
