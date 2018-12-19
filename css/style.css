@@ -207,6 +207,9 @@ header .intro-text {
 	margin: 20px 0;
 	color: #3aaa37;
 }
+ #services .col-xs-12{
+ 	padding-left: 0px;
+ }
 /* Pricing Section */
 #pricing {
 	padding: 120px 0 140px 0;
@@ -444,3 +447,4 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		font-size: 20px;
 	}
  } 
+
