@@ -63,8 +63,8 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	background-color: rgba(248, 248, 248, 0.8);
+	border-color: rgba(231, 231, 231, 0.8);
 }
 #menu a.navbar-brand {
 	font-size: 20px;
