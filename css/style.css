@@ -63,8 +63,8 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	background-color: rgba(248, 248, 248, 0.8);
+	border-color: rgba(231, 231, 231, 0.8);
 }
 #menu a.navbar-brand {
 	font-size: 20px;
@@ -132,7 +132,7 @@ hr {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background: url(../img/cscv-hero.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -140,7 +140,7 @@ hr {
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(255,255,255,0.2);
+	background: rgba(255,255,255,0.35);
 }
 .intro h1 {
 	color: #3aaa37;
@@ -149,16 +149,17 @@ hr {
 	margin-top: 0;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	text-shadow: 2px 2px 15px #000;
 }
 .intro p {
-	color: #444;
+	color: #000;
 	font-size: 28px;
 	margin-top: 10px;
 	margin-bottom: 40px;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 /* About Section */
@@ -445,6 +446,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 	.intro p {
 		font-size: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
  } 
 
